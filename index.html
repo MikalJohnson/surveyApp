@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey App</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <img src="apex.jpg" height="300px" width="400px">
+    <h1>Apex Character Survey</h1>
+    <form action="" id="surveyForm">
+        <label for="favoriteCharacter">Favorite Apex Character: </label>
+        <!-- <select name="" id="favoriteCharacter" required> -->
+        <select name="" id="favoriteCharacter">
+            <option value="">Select One</option>
+            <option value="Wraith">Wraith</option>
+            <option value="Octane">Octane</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Pathfinder">Pathfinder</option>
+            <option value="Revenant">Revenant</option>
+            <option value="Lifeline">Lifeline</option>
+            <option value="Horizon">Horizon</option>
+            <option value="BloodHound">BloodHound</option>
+            <option value="Fuse">Fuse</option>
+            <option value="Loba">Loba</option>
+            <option value="Catalyst">Catalyst</option>
+            <option value="Valkyrie">Valkyrie</option>
+            <option value="Mad-Maggie">Mad Maggie</option>
+            <option value="Mirage">Mirage</option>
+            <option value="Ash">Ash</option>
+            <option value="Caustic">Caustic</option>
+            <option value="Wattson">Wattson</option>
+            <option value="Vantage">Vantage</option>
+            <option value="Rampart">Rampart</option>
+            <option value="Ballistic">Ballistic</option>
+            <option value="Gibraltar">Gibraltar</option>
+            <option value="NewCastle">NewCastle</option>
+            <option value="Crypto">Crypto</option>
+            <option value="Seer">Seer</option>
+        </select>
+        <span id="characterError" class="error"></span>
+        <br><br>
+        <label for="knowledgeRating">Rate your knowledge of Apex Characters</label>
+        <!-- <input type="number" id="knowledgeRating" min="1" max="5" required> -->
+        <input type="number" id="knowledgeRating" min="1" max="5">
+        <span id="ratingError" class="error"></span>
+
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    
+
+    <div id="confirmationMessage"></div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
